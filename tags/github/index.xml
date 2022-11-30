@@ -8,10 +8,10 @@
     <lastBuildDate>Wed, 30 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://kys20548.github.io/tags/github/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>如何架設自己的Hugo網頁</title>
-      <link>https://kys20548.github.io/posts/creating-a-new-theme/</link>
+      <link>https://kys20548.github.io/posts/setup-hugo/</link>
       <pubDate>Wed, 30 Nov 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://kys20548.github.io/posts/creating-a-new-theme/</guid>
+      <guid>https://kys20548.github.io/posts/setup-hugo/</guid>
       <description>前言、動機 既然要寫,就拿日子距離最近的事情來寫吧XD
 不過在寫的當下才發現,平常沒有做練習,突然要寫的時候就會碰上很多問題
 例如安裝步驟要重新run一遍,畫面要截圖,還有書寫內容不能太隨便,畢竟放在網路上還是要給其他人看.

@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en-us">
+  <head>
+    <title>如何架設自己的Hugo網頁 // Danny&#39;s blog</title>
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <meta charset="utf-8" />
+    <meta name="generator" content="Hugo 0.106.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="Danny kao" />
+    <meta name="description" content="" />
+    <link rel="stylesheet" href="/css/main.min.9e9c6027c30f5aa9423b581bd9cddd1ddc66088adb9c2604f89eb5828efea5a1.css" />
+
+    
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="如何架設自己的Hugo網頁"/>
+<meta name="twitter:description" content="前言、動機 既然要寫,就拿日子距離最近的事情來寫吧XD
+不過在寫的當下才發現,平常沒有做練習,突然要寫的時候就會碰上很多問題
+例如安裝步驟要重新run一遍,畫面要截圖,還有書寫內容不能太隨便,畢竟放在網路上還是要給其他人看.
+hugo其實就是個靜態網頁,沒辦法留言(因為沒DB啊),但沒關係,還是一步一步來,先求有再求好,搞不好之後又會搬到別的地方寫XD.
+安裝hugo是需要一點點的本機指令加上gitHub的非常基本功能,所以我不知道非程式設計相關的人看了會卡在哪個步驟,
+總之我盡量簡單寫,不懂的就寫email問我吧！
+開始安裝 註冊gitHub帳號
+這個沒什麼好介紹的,就是去註冊gitHub帳號.
+用brew安裝hugo
+由於我用的是mac,所以可以用brew去幫忙我們下載hugo.
+下載hugo theme
+到這邊下載 hugo theme.
+我是選m10c這個主題,下載好後解開zip,會長這樣
+跑本機指令
+hugo server 之後在瀏覽器輸入localHost:1313
+看到網頁之後就代表成功囉～
+ok！上gitHub!
+這邊參考其他文章都說要開兩個repository,其實也不用只要開一個{gitHubId}.github.io就可以了
+另外一個可能是當作保存你的文章用吧！
+開好後輸入 hugo 會產生一個public資料夾
+將資料夾內容(不包含public資料夾)上傳到repository 之後等個兩分鐘就能夠看到自己的網頁囉！
+參考文獻 medium 文章 朱騏"/>
+
+    <meta property="og:title" content="如何架設自己的Hugo網頁" />
+<meta property="og:description" content="前言、動機 既然要寫,就拿日子距離最近的事情來寫吧XD
+不過在寫的當下才發現,平常沒有做練習,突然要寫的時候就會碰上很多問題
+例如安裝步驟要重新run一遍,畫面要截圖,還有書寫內容不能太隨便,畢竟放在網路上還是要給其他人看.
+hugo其實就是個靜態網頁,沒辦法留言(因為沒DB啊),但沒關係,還是一步一步來,先求有再求好,搞不好之後又會搬到別的地方寫XD.
+安裝hugo是需要一點點的本機指令加上gitHub的非常基本功能,所以我不知道非程式設計相關的人看了會卡在哪個步驟,
+總之我盡量簡單寫,不懂的就寫email問我吧！
+開始安裝 註冊gitHub帳號
+這個沒什麼好介紹的,就是去註冊gitHub帳號.
+用brew安裝hugo
+由於我用的是mac,所以可以用brew去幫忙我們下載hugo.
+下載hugo theme
+到這邊下載 hugo theme.
+我是選m10c這個主題,下載好後解開zip,會長這樣
+跑本機指令
+hugo server 之後在瀏覽器輸入localHost:1313
+看到網頁之後就代表成功囉～
+ok！上gitHub!
+這邊參考其他文章都說要開兩個repository,其實也不用只要開一個{gitHubId}.github.io就可以了
+另外一個可能是當作保存你的文章用吧！
+開好後輸入 hugo 會產生一個public資料夾
+將資料夾內容(不包含public資料夾)上傳到repository 之後等個兩分鐘就能夠看到自己的網頁囉！
+參考文獻 medium 文章 朱騏" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://kys20548.github.io/posts/setup-hugo/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2022-11-30T00:00:00+00:00" />
+<meta property="article:modified_time" content="2022-11-30T00:00:00+00:00" />
+
+
+
+  </head>
+  <body>
+    <header class="app-header">
+      <a href="https://kys20548.github.io/"><img class="app-header-avatar" src="/220499.jpg" alt="Danny kao" /></a>
+      <span class="app-header-title">Danny&#39;s blog</span>
+      <nav class="app-header-menu">
+          <a class="app-header-menu-item" href="/">首頁</a>
+             / 
+          
+          <a class="app-header-menu-item" href="/tags/">標籤</a>
+             / 
+          
+          <a class="app-header-menu-item" href="/about/">關於我</a>
+      </nav>
+      <p>暫時想不到要打什麼,總之這邊是記錄一些心情、工作或技術上的地方.</p>
+      <div class="app-header-social">
+        
+          <a href="https://https://github.com/kys20548" target="_blank" rel="noreferrer noopener me">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-github">
+  <title>Github</title>
+  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+</svg>
+          </a>
+        
+      </div>
+    </header>
+    <main class="app-container">
+      
+  <article class="post">
+    <header class="post-header">
+      <h1 class ="post-title">如何架設自己的Hugo網頁</h1>
+      <div class="post-meta">
+        <div>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-calendar">
+  <title>calendar</title>
+  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line>
+</svg>
+          Nov 30, 2022
+        </div>
+        <div>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-clock">
+  <title>clock</title>
+  <circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline>
+</svg>
+          1 min read
+        </div>
+        <div>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tag">
+  <title>tag</title>
+  <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7.01" y2="7"></line>
+</svg>
+              <a class="tag" href="https://kys20548.github.io/tags/%E6%8A%80%E8%A1%93/">技術</a>
+              <a class="tag" href="https://kys20548.github.io/tags/hugo/">hugo</a>
+              <a class="tag" href="https://kys20548.github.io/tags/github/">gitHub</a>
+        </div>
+      </div>
+    </header>
+    <div class="post-content">
+      <h2 id="前言動機">前言、動機</h2>
+<p>既然要寫,就拿日子距離最近的事情來寫吧XD<br>
+不過在寫的當下才發現,平常沒有做練習,突然要寫的時候就會碰上很多問題<br>
+例如安裝步驟要重新run一遍,畫面要截圖,還有書寫內容不能太隨便,畢竟放在網路上還是要給其他人看.</p>
+<p>hugo其實就是個靜態網頁,沒辦法留言(因為沒DB啊),但沒關係,還是一步一步來,先求有再求好,搞不好之後又會搬到別的地方寫XD.</p>
+<p>安裝hugo是需要一點點的本機指令加上gitHub的非常基本功能,所以我不知道非程式設計相關的人看了會卡在哪個步驟,<br>
+總之我盡量簡單寫,不懂的就寫email問我吧！</p>
+<h2 id="開始安裝">開始安裝</h2>
+<ul>
+<li>
+<p>註冊gitHub帳號<br>
+這個沒什麼好介紹的,就是去註冊gitHub帳號.</p>
+</li>
+<li>
+<p>用brew安裝hugo<br>
+由於我用的是mac,所以可以用brew去幫忙我們下載hugo.</p>
+</li>
+<li>
+<p>下載hugo theme<br>
+到這邊下載 <strong><a href="https://themes.gohugo.io/">hugo theme</a></strong>.<br>
+我是選m10c這個主題,下載好後解開zip,會長這樣<br>
+<img src="/unzipTheme.png" alt="測試文字"></p>
+</li>
+<li>
+<p>跑本機指令</p>
+</li>
+</ul>
+<pre tabindex="0"><code>hugo server
+</code></pre><p>之後在瀏覽器輸入localHost:1313<br>
+看到網頁之後就代表成功囉～</p>
+<ul>
+<li>ok！上gitHub!<br>
+這邊參考其他文章都說要開兩個repository,其實也不用只要開一個{gitHubId}.github.io就可以了<br>
+另外一個可能是當作保存你的文章用吧！<br>
+開好後輸入</li>
+</ul>
+<pre tabindex="0"><code>hugo 
+</code></pre><p>會產生一個public資料夾<br>
+將資料夾內容(不包含public資料夾)上傳到repository
+之後等個兩分鐘就能夠看到自己的網頁囉！</p>
+<h2 id="參考文獻">參考文獻</h2>
+<p><a href="https://medium.com/pm%E7%9A%84%E7%94%9F%E7%94%A2%E5%8A%9B%E5%B7%A5%E5%85%B7%E7%AE%B1/%E6%87%B6%E4%BA%BA%E5%8C%85-%E4%BD%BF%E7%94%A8-hugo-5-%E5%88%86%E9%90%98%E5%85%A7%E5%BF%AB%E9%80%9F%E6%9E%B6%E8%A8%AD%E5%80%8B%E4%BA%BA%E7%B6%B2%E7%AB%99-%E8%99%9F%E7%A8%B1%E7%8F%BE%E5%9C%A8%E6%9C%80%E5%BF%AB%E7%9A%84%E8%87%AA%E6%9E%B6%E7%B6%B2%E7%AB%99%E6%96%B9%E5%BC%8F-99659c7c727a">medium 文章 朱騏</a></p>
+
+    </div>
+    <div class="post-footer">
+      
+    </div>
+  </article>
+
+    </main>
+  </body>
+</html>
