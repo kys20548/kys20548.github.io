@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>技術 on Danny&#39;s blog</title>
+    <link>https://kys20548.github.io/tags/%E6%8A%80%E8%A1%93/</link>
+    <description>Recent content in 技術 on Danny&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 30 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://kys20548.github.io/tags/%E6%8A%80%E8%A1%93/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>如何架設自己的Hugo網頁</title>
+      <link>https://kys20548.github.io/posts/creating-a-new-theme/</link>
+      <pubDate>Wed, 30 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://kys20548.github.io/posts/creating-a-new-theme/</guid>
+      <description>前言、動機 既然要寫,就拿日子距離最近的事情來寫吧XD
+不過在寫的當下才發現,平常沒有做練習,突然要寫的時候就會碰上很多問題
+例如安裝步驟要重新run一遍,畫面要截圖,還有書寫內容不能太隨便,畢竟放在網路上還是要給其他人看.
+hugo其實就是個靜態網頁,沒辦法留言(因為沒DB啊),但沒關係,還是一步一步來,先求有再求好,搞不好之後又會搬到別的地方寫XD.
+安裝hugo是需要一點點的本機指令加上gitHub的非常基本功能,所以我不知道非程式設計相關的人看了會卡在哪個步驟,
+總之我盡量簡單寫,不懂的就寫email問我吧！
+開始安裝 註冊gitHub帳號
+這個沒什麼好介紹的,就是去註冊gitHub帳號.
+用brew安裝hugo
+由於我用的是mac,所以可以用brew去幫忙我們下載hugo.
+下載hugo theme
+到這邊下載 hugo theme.
+我是選m10c這個主題,下載好後解開zip,會長這樣
+跑本機指令
+hugo server 之後在瀏覽器輸入localHost:1313
+看到網頁之後就代表成功囉～
+ok！上gitHub!
+這邊參考其他文章都說要開兩個repository,其實也不用只要開一個{gitHubId}.github.io就可以了
+另外一個可能是當作保存你的文章用吧！
+開好後輸入 hugo 會產生一個public資料夾
+將資料夾內容(不包含public資料夾)上傳到repository 之後等個兩分鐘就能夠看到自己的網頁囉！
+參考文獻 medium 文章 朱騏</description>
+    </item>
+    
+  </channel>
+</rss>

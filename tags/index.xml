@@ -1,26 +1,35 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Your title</title>
+    <title>Tags on Danny&#39;s blog</title>
     <link>https://kys20548.github.io/tags/</link>
-    <description>Recent content in Tags on Your title</description>
+    <description>Recent content in Tags on Danny&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 28 Sep 2014 00:00:00 +0000</lastBuildDate><atom:link href="https://kys20548.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 30 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://kys20548.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>gitHub</title>
+      <link>https://kys20548.github.io/tags/github/</link>
+      <pubDate>Wed, 30 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://kys20548.github.io/tags/github/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>hugo</title>
       <link>https://kys20548.github.io/tags/hugo/</link>
-      <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 30 Nov 2022 00:00:00 +0000</pubDate>
       
       <guid>https://kys20548.github.io/tags/hugo/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>themes</title>
-      <link>https://kys20548.github.io/tags/themes/</link>
-      <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
+      <title>技術</title>
+      <link>https://kys20548.github.io/tags/%E6%8A%80%E8%A1%93/</link>
+      <pubDate>Wed, 30 Nov 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://kys20548.github.io/tags/themes/</guid>
+      <guid>https://kys20548.github.io/tags/%E6%8A%80%E8%A1%93/</guid>
       <description></description>
     </item>
     
@@ -75,6 +84,15 @@
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
       <guid>https://kys20548.github.io/tags/templates/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>themes</title>
+      <link>https://kys20548.github.io/tags/themes/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://kys20548.github.io/tags/themes/</guid>
       <description></description>
     </item>
     
